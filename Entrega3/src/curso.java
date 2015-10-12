@@ -24,13 +24,14 @@ public class curso implements Serializable{
 		this.nota = 0 ; // Nota 0 = Curso no terminado aun
 	}
 	
+	public String toString() {
+		return this.nombre+"-"+this.sigla+"-"+this.nota;
+		}
+	
 	public void ponerNota(float nuevaNota){
 		this.nota = nuevaNota;
 	}
 	
-	public String getId(){
-		return this.id;
-	}
 	
 	public String obtenerInfoCurso (String id){
 		//A partir de un id, revisa el .txt y retorna toda la info de ese curso

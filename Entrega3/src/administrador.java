@@ -7,10 +7,6 @@ import java.util.Scanner;
 
 public class administrador extends persona{
 
-	public int maximoCreditos = 50;
-	public int maximoCreditosReprobados = 60; //Cambiarlo segun semestres
-
-	String unidadAcademica ;
 
 	public administrador (String Nombre, int Edad, boolean EsHombre, String Rut){
 		super(Nombre,Edad, EsHombre, Rut);

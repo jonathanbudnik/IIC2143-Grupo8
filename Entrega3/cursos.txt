@@ -1,3 +1,4 @@
+
 IIC1103-Introducción a la Programación-Jorge Baier-A5-2015-2-1-id001
 IIC1103-Introducción a la Programación-Jorge Munoz-A6-2015-2-2-id002
 IIC1103-Introducción a la Programación-Cristian Ruz-E14-2015-2-3-id003
@@ -14,4 +15,3 @@ MAT1610-Cálculo II-Wolfgang Rivera-A5-2015-2-3-id013
 MAT1610-Cálculo I-Jose Lopez-B23-2015-2-1-id14
 MAT1610-Cálculo I-Ivan Huerta-B25-2015-2-2-id15
 MAT1610-Cálculo I-Wolfgang Rivera-B22-2015-2-3-id016
-

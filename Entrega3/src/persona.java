@@ -1,5 +1,6 @@
+import java.io.Serializable;
 
-public class persona {
+public class persona implements Serializable{
 	String nombre;
 	int edad;
 	boolean esHombre;

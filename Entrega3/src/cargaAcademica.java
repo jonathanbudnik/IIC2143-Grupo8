@@ -14,13 +14,16 @@ public class cargaAcademica implements Serializable{
 		Scanner user_input = new Scanner( System.in );
 		texto t = new texto();
 
-		System.out.println("¿Cuantos cursos deseas tomar?:");	
-		int cantidadRamos= user_input.nextInt();
+		String max = t.retornarTextoCorto(("maxCreditosSemestre.txt"));
+		System.out.println("¿Cuantos cursos deseas tomar?:\nMáximo de créditos: "+max);	
+		int cantidadRamos= user_input.nextInt();		
+		max.replace(" ","");
+		int MAX = Integer.parseInt(max);
 
-		if (cantidadRamos*10<=50){
+		if (cantidadRamos*10<=MAX){
 
 			for (int i = 0; i<cantidadRamos ; i++){
-				System.out.println("ID:\n(Ej: id001)");
+				System.out.println("Escriba el ID del curso (Ej: id001):");
 				String id= user_input.next();
 				String l = t.retornarLinea("cursos.txt", id);
 				String[] parts = l.split("-");
@@ -35,7 +38,6 @@ public class cargaAcademica implements Serializable{
 				curso cursoNuevo = new curso(nombre, sigla, profe, sala, año, semestre, seccion, ID);
 				this.cursosTomados.add(cursoNuevo) ;
 
-				System.out.println(this.cursosTomados.size());
 			}
 		}
 		else{
@@ -53,15 +55,33 @@ public class cargaAcademica implements Serializable{
 
 	public curso obtenerCurso(String ID){
 		curso cursoBuscado = null;
+		boolean cursoEncontrado = false ;
 		for (int n=0; n<this.cursosTomados.size(); n++){
-			//if (this.cursosTomados.get(n).getId.equals(ID)){
-			//cursoBuscado = this.cursosTomados.get(n):
+			curso c = (curso)this.cursosTomados.get(n) ;
+			if (ID.equals(c.id)){
+				cursoBuscado = c;
+				cursoEncontrado = true ;
+				System.out.println("El ramo elegido es: \n"+c);
+			}
+		}
+		if (!cursoEncontrado){
+			System.out.println("El curso no está inscrito");
 		}
 		return cursoBuscado;
 	}
 
-	public void ponerNota(String id, float x){
-		this.obtenerCurso(id).ponerNota(x) ;
-
+	public void ponerNota(){
+		Scanner user_input = new Scanner( System.in );
+		System.out.println("Escriba el id del curso que quiere poner su nota final (Ej: id001):");
+		String id= user_input.next();		
+		curso c = this.obtenerCurso(id) ;
+		System.out.println("Escriba la nota final:");
+		float nota = user_input.nextFloat();
+		if (nota>1.0 && nota<7.0){
+			c.ponerNota(nota);
+		}
+		else{
+			System.out.println("Nota inválida");
+		}
 	}
 }
