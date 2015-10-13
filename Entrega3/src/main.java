@@ -9,6 +9,7 @@ public class main {
 		serializador s = new serializador();
 		texto t = new texto();
 		
+		//Variables booleanas que sirven para ordenar el flujo del programa
 		boolean salir1 = false ;
 		boolean salir2 = false ;
 		boolean salir3 = false ;
@@ -30,40 +31,38 @@ public class main {
 					String password = user_input.next();
 					alumno alum = null;
 					try{
-					alum = s.obtenerAlumno(rut);
+					alum = s.obtenerAlumno(rut); //Obtengo el alumno guardado en el archivo según el rut ingresado.
 					}
 					catch (IOException e){
 						System.out.println("Rut no existente");
 					}
-					System.out.println("Bienvenido "+alum.nombre+"!");
+					
 
-					if (true){ //Verificar si usuario coincida con contraseña
-
-						//alumno alum = new alumno("Igal",22,true, "1", "Comercial");
+					if (true){ //En vez del true debería ir una verificación de la contraseña, se implementará para la próxima entrega.
+						
+						System.out.println("Bienvenido "+alum.nombre+"!");
 							
 						while(!salir2){
 
 							System.out.println("¿Que deseas hacer?\n(1) Ver carga académica \n(2) Buscar curso \n(3) Crear nuevo semestre \n(4) Poner notas\n(5) Ver mi malla\n(6) Salir");
 							String var3 = user_input.next();
-							if (var3.equals("1")){ //Check
+							if (var3.equals("1")){ 
 								alum.verCargaAcademica();					
 							}
 
-							else if (var3.equals("2")){ //Check
+							else if (var3.equals("2")){ 
 								alum.buscarCurso();
 							}
 
-							else if (var3.equals("3")){ //Check
+							else if (var3.equals("3")){ 
 								alum.carga.agregarCursos();
-
 							}
 
 							else if (var3.equals("4")){
 								alum.carga.ponerNota();
-
 							}
 
-							else if (var3.equals("5")){ //Check
+							else if (var3.equals("5")){ 
 								t.leer(alum.carrera.toLowerCase()+".txt");
 							}
 
@@ -72,14 +71,15 @@ public class main {
 							}
 
 							else{
-								System.out.println("Error");
+								System.out.println("Opción inválida");
 							}
 						}
-						s.guardarAlumno(alum);
+						s.guardarAlumno(alum); //Se guarda la información del alumno luego de las modificaciones.
 					}
 				}
 
 				else if (var2.equals("2")){
+					
 					System.out.println("Nombre:");
 					String Nombre= user_input.next();
 					System.out.println("Edad:");
@@ -95,8 +95,8 @@ public class main {
 					System.out.println("Carrera:");
 					String Carrera= user_input.next();
 
-					alumno nuevoAlumno = new alumno(Nombre, Edad, EsHombre, Rut, Carrera);
-					try {
+					alumno nuevoAlumno = new alumno(Nombre, Edad, EsHombre, Rut, Carrera); //Se crea un nuevo alumno
+					try { //Se guarda en un archivo
 						s.guardarAlumno(nuevoAlumno);
 						System.out.println("Alumno creado con éxito");
 					} catch (IOException e) {
@@ -117,34 +117,27 @@ public class main {
 					System.out.println("Contraseña:");
 					String password = user_input.next();
 
-					if (true){ //rut coincide con clave
+					if (true){ //En vez del true debería ir una verificación de la contraseña, se implementará para la próxima entrega.
 
-						//Deserializar el admin deseado.
-
-						administrador admin = new administrador("Yadran",50,true,"183949547");
+						administrador admin = new administrador("Nahum",50,true,"183949547"); //Se utiliza un administrador standar. Lo unico relevante es la verificación de la contraseña.
 
 						while(!salir3){
 							System.out.println("(1) Crear un curso \n(2) Crear una malla \n(3) Cambiar máximo créditos por semestre \n(4) Cambiar máximo creditos reprobados \n(5) Salir");
-							String var3 = user_input.next(); //Check
+							String var3 = user_input.next(); 
 							if (var3.equals("1")){
 								admin.agregarCurso();			
 							}
 
-							else if (var3.equals("2")){ //Check
+							else if (var3.equals("2")){ 
 								admin.crearMalla();
 							}
 
 							else if (var3.equals("3")){
-								System.out.println("Cuanto es el nuevo máximo de creditos por semestre?");
-								String max = user_input.next();
-								t.escribirDesdeCero("maxCreditosSemestre.txt", max);
+								admin.fijarMaximoCreditos();
 							}
 
 							else if (var3.equals("4")){
-								System.out.println("Cuanto es el nuevo máximo de creditos reprobados?");
-								String max = user_input.next();
-								t.escribirDesdeCero("maxCreditosReprobados.txt", max);
-			
+								admin.fijarMaximoCreditosReprobados();
 							}
 
 							else if (var3.equals("5")){
@@ -152,7 +145,7 @@ public class main {
 							}
 
 							else{
-								System.out.println("Error");
+								System.out.println("Opción inválida");
 							}
 						}
 					}

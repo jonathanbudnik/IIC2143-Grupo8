@@ -32,12 +32,6 @@ public class curso implements Serializable{
 		this.nota = nuevaNota;
 	}
 	
-	
-	public String obtenerInfoCurso (String id){
-		//A partir de un id, revisa el .txt y retorna toda la info de ese curso
-		return "INFO CURSO";
-	}
-
 	public void mostrarInfo(){
 		System.out.println(this.sigla+"-"+this.nombre+"-"+this.nota);
 	}

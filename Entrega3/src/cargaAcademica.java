@@ -1,6 +1,9 @@
 import java.io.Serializable;
 import java.util.Scanner;
 
+//Cada carga académica pertence a un alumno, y es ahí donde se almacenan todos los cursos 
+// Desde esta clase se realizan la mayoría de los métodos relacionados a los cursos.
+
 public class cargaAcademica implements Serializable{
 
 	java.util.ArrayList cursosTomados ;

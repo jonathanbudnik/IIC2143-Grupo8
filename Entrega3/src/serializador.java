@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
+//En esta clase están los métodos necesarios para guardar a los alumnos y volver a obtenerlos a partir de los archivos.
+
 public class serializador {
 
 	public void guardarAlumno(alumno a) throws IOException{

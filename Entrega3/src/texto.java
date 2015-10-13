@@ -6,6 +6,8 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 public class texto {
 
+//En esta clase están los métodos necesarios para manipular archivos de texto, principalmente para modificar las mallas y el catálogo de cursos.
+	
 	public void leer(String nombreArchivo){
 		try{
 			FileReader r = new FileReader(nombreArchivo);

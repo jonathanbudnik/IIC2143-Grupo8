@@ -58,10 +58,19 @@ public class administrador extends persona{
 	}
 
 	public void fijarMaximoCreditos(){
-		System.out.println("Maximo creditos fijado");
+		Scanner user_input = new Scanner( System.in );
+		texto t = new texto();
+		System.out.println("Cuanto es el nuevo máximo de creditos por semestre?");
+		String max = user_input.next();
+		t.escribirDesdeCero("maxCreditosSemestre.txt", max);
 	}
 
 	public void fijarMaximoCreditosReprobados(){
-		System.out.println("Maximo creditos reprobados fijado");
+		Scanner user_input = new Scanner( System.in );
+		texto t = new texto();
+		System.out.println("Cuanto es el nuevo máximo de creditos reprobados?");
+		String max = user_input.next();
+		t.escribirDesdeCero("maxCreditosReprobados.txt", max);
+
 	}
 }
