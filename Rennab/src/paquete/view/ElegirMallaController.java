@@ -6,8 +6,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import paquete.MainApp;
+import paquete.model.Malla;
 
 public class ElegirMallaController {
 
@@ -20,6 +22,8 @@ public class ElegirMallaController {
     @FXML
     private void initialize() {
     }
+    @FXML
+    public TextField texto;
 
     public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;
@@ -27,11 +31,13 @@ public class ElegirMallaController {
     @FXML
     private void handleSeleccionarAction(ActionEvent event) {
     	try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("CrearSemestre.fxml"));
+    		Malla m = new Malla(texto.getText());
+    		MainApp.alumno.elegirMalla(m);
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("MenuAlumno.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.setScene(new Scene(root1));  
-            stage.setTitle("Crear Semestre");
+            stage.setTitle("Menú Alumno");
             stage.show();
             ((Node)(event.getSource())).getScene().getWindow().hide();
         } 

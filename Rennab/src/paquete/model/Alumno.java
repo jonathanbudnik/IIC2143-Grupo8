@@ -94,7 +94,6 @@ public int cursosReprobados(){
 	
 	
 public String obtenerSeguimientoCurricular(){
-		
 		String s = "";
 		
 		ArrayList malla = this.malla.siglas;
@@ -102,6 +101,9 @@ public String obtenerSeguimientoCurricular(){
 		ArrayList match = new ArrayList() ;
 		ArrayList faltan = new ArrayList();
 		
+		if (carga.size()==0){
+			faltan=malla;
+		}
 		for (int i=0 ; i<malla.size() ; i++){
 			for (int j=0 ; j<carga.size() ; j++){
 				String sigla2 = (String) carga.get(j);
