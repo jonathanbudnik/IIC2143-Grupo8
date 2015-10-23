@@ -31,6 +31,7 @@ public class MaximoReprobadoController {
     @FXML
     private void handleAsignarAction(ActionEvent event) {
     	try {
+    		MainApp.admin.fijarMaximoCreditosReprobados(text.getText());
     		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("MenuAdmin.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();

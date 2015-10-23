@@ -105,4 +105,19 @@ public class MenuAlumnoController {
         e.printStackTrace();
     	}
     }
+    @FXML
+    private void handleSituacionAcademicaAction(ActionEvent event) {
+    	try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SituacionAcademica.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));  
+            stage.setTitle("Situación Académica");
+            stage.show();
+            ((Node)(event.getSource())).getScene().getWindow().hide();
+        } 
+    	catch(Exception e) {
+        e.printStackTrace();
+    	}
+    }
 }

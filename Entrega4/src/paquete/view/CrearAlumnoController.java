@@ -52,7 +52,7 @@ public class CrearAlumnoController {
     			Stage stage = new Stage();
     			stage.setScene(new Scene(root1));  
     			stage.setTitle("Crear Nuevo Semestre");
-    			stage.setX(700);
+    			stage.setX(850);
     			stage.setY(250);
     			stage.show();
     			
@@ -61,7 +61,7 @@ public class CrearAlumnoController {
     			Stage stage1 = new Stage();
     			stage1.setScene(new Scene(root2));  
     			stage1.setTitle("Buscador de Cursos");
-    			stage1.setX(250);
+    			stage1.setX(100);
     			stage1.setY(250);
     			stage1.show();
     			((Node)(event.getSource())).getScene().getWindow().hide();

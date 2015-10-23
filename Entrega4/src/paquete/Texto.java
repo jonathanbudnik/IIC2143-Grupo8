@@ -150,6 +150,22 @@ public class Texto {
 		}
 		return retorno;
 	}
+	
+	public boolean verificarExistencia(String archivo){
+		File f = new File(archivo);
+		return f.exists() && !f.isDirectory();
+	}
+	
+	public  void eliminarArchivo(String nombreArchivo){
+		String archivo = nombreArchivo;
+	    try{
+	    	File file = new File(archivo);
+	    	file.delete();
+	    }
+	    catch(Exception e){
+	    	e.printStackTrace();
+	    }
+	}
 
 
 	public ArrayList retornarLista(String nombreArchivo){

@@ -34,13 +34,37 @@ public class IngresoAdminController {
     @FXML
     private void handleIngresarAction(ActionEvent event) {
     	try {
-    		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("MenuAdmin.fxml"));
-            Parent root1 = (Parent) fxmlLoader.load();
-            Stage stage = new Stage();
-            stage.setScene(new Scene(root1));  
-            stage.setTitle("Menú Administrador");
-            stage.show();
-            ((Node)(event.getSource())).getScene().getWindow().hide();
+    		if (MainApp.texto.verificarExistencia(TextoRut.getText() + ".bina")){
+    			MainApp.accesoAdmin(TextoRut.getText());
+        		if (MainApp.verificador.contraseñaCorrectaAdmin(MainApp.admin, TextoContraseña.getText())){
+        			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("MenuAdmin.fxml"));
+                    Parent root1 = (Parent) fxmlLoader.load();
+                    Stage stage = new Stage();
+                    stage.setScene(new Scene(root1));  
+                    stage.setTitle("Menú Administrador");
+                    stage.show();
+                    ((Node)(event.getSource())).getScene().getWindow().hide();
+        		}
+        		else {
+        			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("IngresoAdmin.fxml"));
+                    Parent root1 = (Parent) fxmlLoader.load();
+                    Stage stage = new Stage();
+                    stage.setScene(new Scene(root1));  
+                    stage.setTitle("Ingreso Administrador");
+                    stage.show();
+                    ((Node)(event.getSource())).getScene().getWindow().hide();
+        		}
+    		}
+    		else {
+    			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("IngresoAdmin.fxml"));
+                Parent root1 = (Parent) fxmlLoader.load();
+                Stage stage = new Stage();
+                stage.setScene(new Scene(root1));  
+                stage.setTitle("Ingreso Admin");
+                stage.show();
+                ((Node)(event.getSource())).getScene().getWindow().hide();
+    		}
+    			
         } 
     	catch(Exception e) {
         e.printStackTrace();

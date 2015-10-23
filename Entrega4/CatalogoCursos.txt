@@ -38,3 +38,4 @@ IIC2333-Sistemas Operativos y Redes-Marcos Rath-B16-2015-2-1-10-DCC-id037
 IIC3103-Taller de Integración-Francisco Avila-BC25-2015-2-1-10-DCC-id038
 IIC3703-Gestión de Operaciones TI-Rene Williams-BC26-2015-2-1-10-DCC-id039
 IIC2154-Proyecto de Especialidad-Alan Birman-BC24-2015-2-1-10-DCC-id040
+1-2-0-3-4-5-6-7-8-id9

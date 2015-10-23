@@ -20,6 +20,7 @@ public class MainApp extends Application {
     public static Alumno alumno;
     public static Verificador verificador = new Verificador();
     public static Texto texto = new Texto();
+    public static Administrador admin;
 
     @Override
     public void start(Stage primaryStage) {
@@ -31,6 +32,8 @@ public class MainApp extends Application {
     
     public void showInicio0() {
     	try {
+    		Administrador admin1 = new Administrador("Najum",51,true,"1234","1234");
+    		serializador.guardarAdministrador(admin1);
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("view/SplashScreen.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
@@ -45,6 +48,9 @@ public class MainApp extends Application {
     
     public static void accesoAlumno(String rut) throws FileNotFoundException, IOException{
     	alumno = serializador.obtenerAlumno(rut);
+    }
+    public static void accesoAdmin(String rut) throws FileNotFoundException, IOException{
+    	admin = serializador.obtenerAdministrador(rut);
     }
 
     /**

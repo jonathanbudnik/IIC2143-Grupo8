@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.EliminarMallaController">
+   <children>
+      <Label layoutX="103.0" layoutY="74.0" text="Malla a eliminar" />
+      <TextField fx:id="texto" layoutX="37.0" layoutY="155.0" />
+      <Button layoutX="219.0" layoutY="155.0" mnemonicParsing="false" onAction="#handleEliminarAction" text="Eliminar" />
+   </children>
+</AnchorPane>

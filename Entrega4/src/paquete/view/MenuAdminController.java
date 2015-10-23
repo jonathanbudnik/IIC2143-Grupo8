@@ -33,11 +33,11 @@ public class MenuAdminController {
     @FXML
     private void handleCrearRamoAction(ActionEvent event) {
     	try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("AvanceCurricular.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("CrearCurso.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.setScene(new Scene(root1));  
-            stage.setTitle("Avance Curricular");
+            stage.setTitle("Crear Curso");
             stage.show();
             ((Node)(event.getSource())).getScene().getWindow().hide();
         } 
@@ -48,11 +48,27 @@ public class MenuAdminController {
     @FXML
     private void handleBorrarRamoAction(ActionEvent event) {
     	try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("CalificarSemestre.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("BorrarRamo.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.setScene(new Scene(root1));
-            stage.setTitle("Calificar Semestre");
+            stage.setTitle("Borrar Ramo");
+            stage.setX(850);
+			stage.setY(250);
+            stage.show();
+            ((Node)(event.getSource())).getScene().getWindow().hide();
+        } 
+    	catch(Exception e) {
+        e.printStackTrace();
+    	}
+    	try {
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("BuscadorDeCursos.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.setTitle("Buscador de Cursos");
+            stage.setX(100);
+			stage.setY(250);
             stage.show();
             ((Node)(event.getSource())).getScene().getWindow().hide();
         } 
@@ -63,11 +79,11 @@ public class MenuAdminController {
     @FXML
     private void handleCrearMallaAction(ActionEvent event) {
     	try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("VerHistorial.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("CrearMalla.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.setScene(new Scene(root1));
-            stage.setTitle("Historial Académico");
+            stage.setTitle("Crear Malla");
             stage.show();
             ((Node)(event.getSource())).getScene().getWindow().hide();
         } 
@@ -78,11 +94,11 @@ public class MenuAdminController {
     @FXML
     private void handleBorrarMallaAction(ActionEvent event) {
     	try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("CambiarMalla.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("EliminarMalla.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.setScene(new Scene(root1));  
-            stage.setTitle("Cambio de Malla");
+            stage.setTitle("Borrar Malla");
             stage.show();
             ((Node)(event.getSource())).getScene().getWindow().hide();
         } 
@@ -93,12 +109,13 @@ public class MenuAdminController {
     @FXML
     private void handleCreditosSemestreAction(ActionEvent event) {
     	try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("BuscadorDeCursos.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("MaximoSemestre.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.setScene(new Scene(root1));  
-            stage.setTitle("Buscador de Curos");
+            stage.setTitle("Máximo de Créditos por Semestre");
             stage.show();
+            ((Node)(event.getSource())).getScene().getWindow().hide();
         } 
     	catch(Exception e) {
         e.printStackTrace();
@@ -107,12 +124,13 @@ public class MenuAdminController {
     @FXML
     private void handleCreditosReprobadosAction(ActionEvent event) {
     	try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("BuscadorDeCursos.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("MaximoReprobado.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.setScene(new Scene(root1));  
-            stage.setTitle("Buscador de Curos");
+            stage.setTitle("Máximo de Créditos Reprobados");
             stage.show();
+            ((Node)(event.getSource())).getScene().getWindow().hide();
         } 
     	catch(Exception e) {
         e.printStackTrace();

@@ -1,5 +1,7 @@
 package paquete.model;
 import java.util.ArrayList;
+
+import paquete.MainApp;
 import paquete.Texto;
 
 public class Administrador extends Persona{
@@ -10,14 +12,21 @@ public class Administrador extends Persona{
 		super(Nombre,Edad, EsHombre, Rut, Contraseña);
 	}
 	
-	public void agregarCurso(String Sigla,String Nombre,String Profesor,String Sala, String Año, String Semestre, String Seccion, String Id){
-		String nuevoCurso = Sigla+"-"+Nombre+"-"+Profesor+"-"+Sala+"-"+(Año)+"-"+(Semestre)+"-"+(Seccion)+"-"+(Id);
+	public void agregarCurso(String Sigla,String Nombre,String Profesor,String Sala, String Año, String Semestre, String Seccion, String Creditos, String Departamento, String Id){
+		String nuevoCurso = Sigla+"-"+Nombre+"-"+Profesor+"-"+Sala+"-"+Año+"-"+Semestre+"-"+Seccion+"-"+Creditos+"-"+Departamento+"-"+Id;
 		t.agregarTexto("CatalogoCursos.txt", nuevoCurso);
 	}
 	
 	public void eliminarCurso(String id){
 		t.eliminarLinea("CatalogoCursos.txt", id);
 			
+	}
+	
+	public void eliminarMalla(String nombreMalla){
+		String archivo = nombreMalla+".txt";
+		if (t.verificarExistencia(archivo)){
+			t.eliminarArchivo(archivo);
+		}
 	}
 	
 	public void crearMalla(String nombre, ArrayList siglas){
@@ -36,6 +45,10 @@ public class Administrador extends Persona{
 	public void agregarRamoMalla(String nombreMalla, String sigla){
 		String nombreArchivo = nombreMalla+".txt";
 		t.agregarTexto(nombreArchivo,sigla);
+	}
+	
+	public String buscarCurso(String x){
+		return MainApp.texto.retornarLinea("CatalogoCursos.txt",x);	
 	}
 	
 	public void eliminarRamoMalla(String nombreMalla, String sigla){

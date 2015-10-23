@@ -34,15 +34,26 @@ public class IngresoAlumnoController {
     @FXML
     private void handleIngresarAction(ActionEvent event) {
     	try {
-    		MainApp.accesoAlumno(TextoRut.getText());
-    		if (MainApp.verificador.contraseñaCorrectaAlumno(MainApp.alumno, TextoContraseña.getText())){
-    			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("MenuAlumno.fxml"));
-                Parent root1 = (Parent) fxmlLoader.load();
-                Stage stage = new Stage();
-                stage.setScene(new Scene(root1));  
-                stage.setTitle("Menú Alumno");
-                stage.show();
-                ((Node)(event.getSource())).getScene().getWindow().hide();
+    		if(MainApp.texto.verificarExistencia(TextoRut.getText()+".bin")){
+    			MainApp.accesoAlumno(TextoRut.getText());
+        		if (MainApp.verificador.contraseñaCorrectaAlumno(MainApp.alumno, TextoContraseña.getText())){
+        			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("MenuAlumno.fxml"));
+                    Parent root1 = (Parent) fxmlLoader.load();
+                    Stage stage = new Stage();
+                    stage.setScene(new Scene(root1));  
+                    stage.setTitle("Menú Alumno");
+                    stage.show();
+                    ((Node)(event.getSource())).getScene().getWindow().hide();
+        		}
+        		else {
+        			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("IngresoAlumno.fxml"));
+                    Parent root1 = (Parent) fxmlLoader.load();
+                    Stage stage = new Stage();
+                    stage.setScene(new Scene(root1));  
+                    stage.setTitle("Ingreso Alumno");
+                    stage.show();
+                    ((Node)(event.getSource())).getScene().getWindow().hide();
+        		}
     		}
     		else {
     			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("IngresoAlumno.fxml"));

@@ -23,6 +23,39 @@ public class Alumno extends Persona implements Serializable{
 		return MainApp.texto.retornarLinea("CatalogoCursos.txt",x);	
 	}
 	
+public int cursosReprobados(){
+		
+		int n = 0;
+		for (int i = 0 ; i<this.cargaAcademica.semestres.size() ; i++){
+			Semestre s = (Semestre)this.cargaAcademica.semestres.get(i);
+			for (int j=0; j< s.cursos.size(); j++){
+				Curso c = (Curso) s.cursos.get(j);
+				if (!c.estaAprobado() && !c.estaPendiente()){
+					System.out.println(c.sigla);
+					n+=1;
+				}
+			}
+		}
+		return n;
+	}
+	
+	public String situacionCurricular(){
+		int max = MainApp.verificador.maximoCreditosReprobados();
+		int actual = cursosReprobados()*10;	
+		String retorno;
+				
+		if (actual<=max){
+			retorno =  "         Alumno Regular\n";
+		}
+		
+		else{
+			retorno =  "          Expulsado\n";
+		}
+		retorno += "Cantidad creditos reprobados: ";
+		retorno += Integer.toString(actual);
+		return retorno;
+	}
+	
 	public void elegirMalla(Malla m){
 		this.malla = m;
 	}
@@ -69,13 +102,10 @@ public String obtenerSeguimientoCurricular(){
 		ArrayList match = new ArrayList() ;
 		ArrayList faltan = new ArrayList();
 		
-		System.out.println(malla);
-		System.out.println(carga);
-		
 		for (int i=0 ; i<malla.size() ; i++){
 			for (int j=0 ; j<carga.size() ; j++){
-				String sigla1 = (String) malla.get(i);
 				String sigla2 = (String) carga.get(j);
+				String sigla1 = (String) malla.get(i);
 				if (sigla1.equals(sigla2)){
 					match.add(sigla1);
 				}
@@ -84,6 +114,13 @@ public String obtenerSeguimientoCurricular(){
 				}	
 			}
 		}	
+		for (int i=0; i<match.size(); i++){
+			for (int j=0; j<faltan.size(); j++){
+				if ((String) match.get(i)==(String) faltan.get(j)){
+					faltan.remove(j);
+				}
+			}
+		}
 		s += "Ramos Aprobados:\n";
 		for (int n=0 ; n<match.size() ; n++){
 			s+=match.get(n);
@@ -103,20 +140,16 @@ public String obtenerSeguimientoCurricular(){
 		
 		ArrayList Aprobados = new ArrayList();
 		
-		int cantidadSemestres = this.cargaAcademica.obtenerSemestres().size();
-		System.out.println("llevo "+cantidadSemestres+" semestre");
-		
-		for (int i = 0 ; i<cantidadSemestres ; i++){
+		for (int i = 0 ; i<this.cargaAcademica.obtenerSemestres().size() ; i++){
 			
 			Semestre s = (Semestre)this.cargaAcademica.obtenerSemestres().get(i);
-			int cantidadCursos=s.obtenerCursos().size();
-			System.out.println("este semestre tiene "+cantidadCursos+" cursos");
 			
-			for (int j = 0 ; j<cantidadCursos ; j++){
-			
+			for (int j = 0 ; j<s.obtenerCursos().size() ; j++){
 				Curso c = (Curso) s.obtenerCursos().get(j);
-				System.out.println(c.id);
 
+				if (c.estaAprobado()){
+					Aprobados.add(c.getSigla());
+				}
 			}
 		}
 		return Aprobados;
@@ -134,16 +167,37 @@ public String obtenerSeguimientoCurricular(){
 		}
 	}
 	
-	public String obtenerHistorialAcademico(){
+	public String obtenerHistorialAcademico(){ //Muestra los reprobados, aprobados, y en curso
+		String retorno = "";
 		
-		Strint t = "";
+		String Aprobados = "Aprobados:";
+		String Reprobados = "Reprobados:";
+		String Pendientes = "En curso:";
 		
+		for (int i = 0 ; i<this.cargaAcademica.obtenerSemestres().size() ; i++){
+			
+			Semestre s = (Semestre)this.cargaAcademica.obtenerSemestres().get(i);
+			
+			for (int j = 0 ; j<s.obtenerCursos().size() ; j++){
+				Curso c = (Curso) s.obtenerCursos().get(j);
+				String x = " - ";
+				if (c.estaPendiente()){
+					Pendientes+="\n";
+					Pendientes+=c.sigla+x+c.nombre+x+c.año+x+c.semestre;
+					}
+				else if (c.estaAprobado()){
+					Aprobados+="\n";
+					Aprobados+=c.sigla+x+c.nombre+x+c.año+x+c.semestre+x+c.nota;
+				}
+				else if (c.estaAprobado()==false){
+					Reprobados+="\n";
+					Reprobados+=c.sigla+x+c.nombre+x+c.año+x+c.semestre+x+c.nota;
+				}	
+			}
+		}
 		
-		
-		
-		
-		
-		
+		retorno = Aprobados +"\n" +Reprobados +"\n" +Pendientes;
+		return retorno;
 	}
 	
 

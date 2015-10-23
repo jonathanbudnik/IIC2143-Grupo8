@@ -44,7 +44,10 @@ public class BuscadorDeCursosController {
     @FXML
     private void handleBuscarAction(ActionEvent event) {
     	try {
-    		texto1.setText(MainApp.alumno.buscarCurso(texto.getText()));
+    		if (MainApp.alumno != null)
+    			texto1.setText(MainApp.alumno.buscarCurso(texto.getText()));
+    		else
+    			texto1.setText(MainApp.admin.buscarCurso(texto.getText()));
         } 
     	catch(Exception e) {
         e.printStackTrace();
