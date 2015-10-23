@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.SplashScreenController">
+   <children>
+      <Label alignment="CENTER" layoutX="284.0" layoutY="51.0" text="RENNAB" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" />
+      <Button layoutX="272.0" layoutY="124.0" mnemonicParsing="false" onAction="#handleIngresarAction" text="Ingresar" />
+      <Button layoutX="272.0" layoutY="198.0" mnemonicParsing="false" onAction="#handleCrearAction" text="Crear Usuario" />
+   </children>
+</AnchorPane>

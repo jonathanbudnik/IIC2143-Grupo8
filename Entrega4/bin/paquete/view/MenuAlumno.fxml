@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.MenuAlumnoController">
+   <children>
+      <Label layoutX="104.0" layoutY="33.0" text="Elija una acción" />
+      <Button layoutX="90.0" layoutY="118.0" mnemonicParsing="false" onAction="#handleCalificarSemestreAction" text="Calificar Semestre" />
+      <Button layoutX="90.0" layoutY="155.0" mnemonicParsing="false" onAction="#handleVerHistorialAction" text="Ver Historial Académico" />
+      <Button layoutX="89.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleAvanceCurricularAction" text="Avance Curricular" />
+      <Button layoutX="90.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleBuscadorCursosAction" text="Planificar Semestre" />
+      <Button layoutX="90.0" layoutY="254.0" mnemonicParsing="false" onAction="#handleCambiarMallaAction" text="Cambiar Malla" />
+   </children>
+</AnchorPane>

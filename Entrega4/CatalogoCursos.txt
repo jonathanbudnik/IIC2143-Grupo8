@@ -1,0 +1,40 @@
+IIC1103-Introducción a la Programación-Jorge Baier-A5-2015-2-1-10-DCC-id001
+IIC1103-Introducción a la Programación-Jorge Munoz-A6-2015-2-2-10-DCC-id002
+IIC1103-Introducción a la Programación-Cristian Ruz-E14-2015-2-3-10-DCC-id003
+IIC2143-Ingeniería de Software-Yadran Etertovic-A2-2015-2-1-10-DCC-id004
+IIC2133-Estructuras de Datos y Algoritmos-Yadran Etertovic-BC25-2015-2-1-10-DCC-id005
+IIC2233-Programación Avanzada-Karim Pichara-B23-2015-2-1-10-DCC-id006
+IIC2233-Programación Avanzada-Christian Pieriger-B24-2015-2-2-10-DCC-id007
+MAT1203-Algebra lineal-Ivan Huerta-A3-2015-2-1-10-Matemáticas-id008
+MAT1203-Algebra lineal-Wolfgang Rivera-A8-2015-2-2-10-Matemáticas-id009
+MAT1203-Algebra lineal-Jose Lopez-A7-2015-2-3-10-Matemáticas-id010
+MAT1610-Cálculo II-Jose Lopez-A1-2015-2-1-10-Matemáticas-id011
+MAT1610-Cálculo II-Ivan Huerta-A3-2015-2-2-10-Matemáticas-id012
+MAT1610-Cálculo II-Wolfgang Rivera-A5-2015-2-3-10-Matemáticas-id013
+MAT1610-Cálculo I-Jose Lopez-B23-2015-2-1-10-Matemáticas-id014
+MAT1610-Cálculo I-Ivan Huerta-B25-2015-2-2-10-Matemáticas-id015
+MAT1610-Cálculo I-Wolfgang Rivera-B22-2015-2-3-10-Física-id016
+MAT1630-Cálculo III-Marcel Behar-B21-2015-2-1-10-Matemáticas-id017
+FIS1513-Estática y Dinámica-Rafael Benguria-B11-2015-2-1-10-Física-id018
+FIS1503-Física General-Javier Diaz-B02-2015-2-1-10-Física-id019
+FIS1523-Termodinámica-Francisco Garri-B01-2015-2-1-10-Física-id020
+FIS1533-Electricidad y Magnetismo-Esteban Dib-B15-2015-2-1-10-Física-id021
+MAT1640-Ecuaciones Diferenciales-Yair Neuman-B25-2015-2-1-10-Física-id022
+ING1004-Desafíos de la Igeniería-Aron Kaufman-A5-2015-2-1-10-Industrial-id023
+ICS1513-Introducción a la Economía-David Edelstein-A1-2015-2-1-10-Industrial-id024
+ICS1113-Optimización-David Edelstein-A2-2015-2-1-10-Industrial-id025
+ICS2613-Contabilidad y Control de Gestión-Benjamin Yulis-A8-2015-2-1-10-Industrial-id026
+ICS2813-Organización y Comportamiento en la Empresa-Eitan Bloch-A2-2015-2-1-10-Industrial-id027
+ICS3313-Marketing-Alexis Sanchez-A1-2015-2-1-10-Industrial-id028
+ICS3413-Finanzas—Benjamin Sas-A4-2015-2-1-10-Industrial-id029
+ICS3013-Evaluación de Proyectos-Arturo Vidal-A6-2015-2-1-10-Industrial-id030
+ICS3213-Gestión de Operaciones—Eduardo Vargas-A7-2015-2-1-10-Industrial-id031
+IIC1253-Matemáticas Discretas-Claudio Bravo-B23-2015-2-1-10-DCC-id032
+IIC2343-Arquitectura de Computadores-Jorgue Pozo-B25-2015-2-1-10-DCC-id033
+IIC2713-Sistemas de Información-Joaquin Bustos-B12-2015-2-1-10-DCC-id034
+IIC2413-Bases de Datos-David Pizarro-B13-2015-2-1-10-DCC-id035
+IIC2733-Modelos de Procesos-David Alvear-B15-2015-2-1-10-DCC-id036
+IIC2333-Sistemas Operativos y Redes-Marcos Rath-B16-2015-2-1-10-DCC-id037
+IIC3103-Taller de Integración-Francisco Avila-BC25-2015-2-1-10-DCC-id038
+IIC3703-Gestión de Operaciones TI-Rene Williams-BC26-2015-2-1-10-DCC-id039
+IIC2154-Proyecto de Especialidad-Alan Birman-BC24-2015-2-1-10-DCC-id040
