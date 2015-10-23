@@ -55,6 +55,6 @@ public class BuscadorDeCursosController {
     }
     @FXML
     public void actualizarPantalla(){
-    	comboBox.getItems().addAll("nombre curso","sigla curso","profesor");
+    	comboBox.getItems().addAll("Nombre Curso","Sigla Curso","Profesor","Departamento");
     }
 }

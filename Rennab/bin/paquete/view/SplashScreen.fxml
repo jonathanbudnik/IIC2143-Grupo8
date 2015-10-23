@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.SplashScreenController">
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.SplashScreenController">
    <children>
-      <Label alignment="CENTER" layoutX="284.0" layoutY="51.0" text="RENNAB" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="250.0" />
-      <Button layoutX="272.0" layoutY="124.0" mnemonicParsing="false" onAction="#handleIngresarAction" text="Ingresar" />
-      <Button layoutX="272.0" layoutY="198.0" mnemonicParsing="false" onAction="#handleCrearAction" text="Crear Usuario" />
+      <ImageView fitHeight="300.0" fitWidth="347.0" opacity="0.2" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../logo.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="284.0" layoutY="51.0" text="RENNAB" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font></Label>
+      <Button layoutX="116.0" layoutY="123.0" mnemonicParsing="false" onAction="#handleIngresarAction" text="Ingresar" />
+      <Button layoutX="99.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleCrearAction" text="Crear Usuario" />
    </children>
 </AnchorPane>

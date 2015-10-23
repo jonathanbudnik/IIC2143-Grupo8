@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import paquete.MainApp;
@@ -26,7 +27,7 @@ public class IngresoAdminController {
     @FXML
     public TextField TextoRut;
     @FXML
-    public TextField TextoContraseña;
+    public PasswordField TextoContraseña;
     
     public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;

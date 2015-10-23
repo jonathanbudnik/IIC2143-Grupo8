@@ -7,6 +7,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import paquete.MainApp;
@@ -35,7 +36,7 @@ public class CrearAlumnoController {
     @FXML
     public TextField TextoCarrera;
     @FXML
-    public TextField TextoContraseña;
+    public PasswordField TextoContraseña;
 
     public void setMainApp(MainApp mainApp) {
         this.mainApp = mainApp;
@@ -44,7 +45,7 @@ public class CrearAlumnoController {
     private void handleRegistrarAction(ActionEvent event) {
     	if (! TextoNombre.getText().trim().isEmpty() && ! TextoEdad.getText().trim().isEmpty() && ! TextoSexo.getText().trim().isEmpty() && ! TextoRut.getText().trim().isEmpty() && ! TextoCarrera.getText().trim().isEmpty() && ! TextoContraseña.getText().trim().isEmpty()) {
     		try {
-    			Alumno a = new Alumno(TextoNombre.getText(),Integer.parseInt(TextoEdad.getText()),true,TextoRut.getText(),TextoCarrera.getText(),TextoContraseña.getText());
+    			Alumno a = new Alumno(TextoNombre.getText(),Integer.parseInt(TextoEdad.getText()),true,TextoRut.getText(),TextoCarrera.getText().toLowerCase(),TextoContraseña.getText());
     			MainApp.serializador.guardarAlumno(a);
     			MainApp.accesoAlumno(a.rut);
     			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("CrearSemestre.fxml"));
