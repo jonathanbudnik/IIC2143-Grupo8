@@ -1,26 +1,23 @@
-##README
+##README ENTREGA 4:
 
-* El programa se ejecuta desde el main. Desde allí se accede a la interface (en esta entrega se debe usar la consola) desde donde se puede hacer las funcionalidades pedidas.
+* El programa se corre desde la clase MainApp.
 
-* Las personas que ingresan deben identificarse como alumno o como administrador. Ambos tiene una clave para ingresar, sin embargo para esta entrega todavía no está implementada la verificación de la clave (siempre se autoriza el ingreso).
+* Solo se pueden crear usuario de alumnos. Los usuarios de administrador vienen previamente creados. Para acceder a las funcionalidades del administrador, utilizar los siguientes datos:
+Rut: 1234
+Contraseña = 1234
 
-* Los administradores no son guardados en el sistema, ya que su información personal no resulta importante a la hora del funcionamiento -solo importa si tiene autorización para hacer cambios, no su información personal-.
+* Luego de crear una cuenta, el usuario está obligado a agregar su primer semestre. Para esto, se abre automáticamente el buscador de curso. Cabe destacar que para agregar un curso, el usuario debe usar el ID de este. 
 
-* Los alumnos son guardados a través de una serialización en archivos de extensión .bin, en donde además de sus datos personales se almacena su carga académica con sus cursos respectivos. Cada archivo tiene el nombre del rut del alumno, debido a que es un indicador único. 
+* La cantidad máxima de créditos por semestre depende del valor que le asignó el administrador. Por defecto es 60 créditos.
 
-* Cualquier persona que acceda al programa puede crear un usuario, entregando la información que el programa le pide.
+* Para escribir los id de cada curso, es importante que se incluyan los 0. Es decir, el curso 00001 no es lo mismo que el curso 1.
 
-* El programa solo dejara acceder a usuarios que ya tengan una cuenta creada (es decir, un archivo con su información). Para entrar al sistema se debe crear una cuenta, o utilizar una ya existente (el rut 183949217 viene implementado).
+* El usuario para crear un nuevo semestre debe cerrar el último semestre agregado, escribiendo las distintas notas que obtuvo. Las notas decimales se deben escribir con puntos, no comas.
 
-* Cada curso tiene un indicador específico, llamado ID. De esta forma, se puede diferenciar entre un mismo curso dictado en años diferentes, o en secciones distintas. El objetivo de esto es simplemente facilitar el funcionamiento del sistema.
+* Cuando un alumno es creado, la malla que se le adjudica por defecto es la de su carrera. Por ejemplo, si al crear mi usuario en carrera escribo “Ingeniería”, esta será la malla que tendrá asignada en un comienzo. La malla puede cambiarse fácilmente a través de la interfaz, escribiendo el nombre de la nueva malla.
 
-* Siempre que una persona agregue un nuevo curso, su nota será por defecto 0. Cuando una persona decide cerrar semestre, escribe la nota de los cursos que terminó de hacer y de esta forma la nota se convierte en una nota real -de rango desde el 1.0 hasta el 7.0-. De esta forma, si en el futuro necesitamos saber cuales ramos están cerrados o cuales fueron reprobados, basta con diferenciar entre las notas que están entre el 1.0 y el 3.9 (reprobadas), y aquellas que la nota es 0.0 (en curso).
+* Si la malla elegida no existe, el usuario quedará con una malla “vacía” y no podrá ver si seguimiento curricular.
 
-* Si bien la gran mayoría de los input entregados por el usuario son verificados para evitar errores, además de manejar las distintas excepciones, se recomienda que para esta versión del programa se cumple con estricto rigor la forma especificada de entregar los valores. Por ejemplo, cuando la interfaz pide ingresar un id de un curso, este debe ser entregado de la forma "idxxx" (por ejemplo, id016).
+* En el programa vienen creadas las mallas de ingeniería, college, párvulo y agronomía. Se recomiendo utilizar la de ingeniería ya que los cursos que vienen agregados por defecto en el catalogo de cursos son de ingeniería (el administrador puede agregar más cursos).
 
-* El catálogo de cursos se guarda en un archivo .txt, el cual puede ser modificado por un administrador, y puede ser leída por un alumno (para obtener información de los distintos cursos dictados).
-
-* Cada malla es guardada como un archivo .txt en donde están escritas las siglas de los distintos ramos que tiene. Cuando un alumno quiere observar su malla, solo se la muestra si esta existe (si la carrera del alumno es ingeniería -malla que viene ya implementada- la interfaz mostrara los cursos respectivos).
-
-
-
+* Cuando un alumno accede a su estado curricular, el sistema le mostrará cuantos créditos ha reprobado, y en base a esto mostrará si el alumno es todavía un alumno regular o ha sido expulsado. La cantidad por defecto de máximo de créditos reprobados es 50, pero puede ser modificado por el administrador. 
