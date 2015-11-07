@@ -1,0 +1,120 @@
+IIC1103-Introducción a la Programación-Jorge Baier-A5-2015,2-1-10-DCC-id001
+IIC1103-Introducción a la Programación-Jorge Baier-A7-2016,2-1-10-DCC-id002
+IIC1103-Introducción a la Programación-Jorge Baier-A4-2016,1-1-10-DCC-id003
+IIC1103-Introducción a la Programación-Jorge Munoz-A6-2015,2-2-10-DCC-id004
+IIC1103-Introducción a la Programación-Jorge Munoz-A3-2016,2-2-10-DCC-id005
+IIC1103-Introducción a la Programación-Jorge Munoz-A1-2016,1-2-10-DCC-id006
+IIC1103-Introducción a la Programación-Cristian Ruz-E17-2015,2-3-10-DCC-id007
+IIC1103-Introducción a la Programación-Cristian Ruz-E14-2016,2-3-10-DCC-id008
+IIC1103-Introducción a la Programación-Cristian Ruz-E15-2016,1-3-10-DCC-id009
+IIC2143-Ingeniería de Software-Yadran Etertovic-A2-2015,2-1-10-DCC-id010
+IIC2143-Ingeniería de Software-Yadran Etertovic-A3-2016,2-1-10-DCC-id011
+IIC2143-Ingeniería de Software-Yadran Etertovic-A4-2016,1-1-10-DCC-id012
+IIC2133-Estructuras de Datos y Algoritmos-Yadran Etertovic-BC26-2015,2-1-10-DCC-id013
+IIC2133-Estructuras de Datos y Algoritmos-Yadran Etertovic-BC25-2016,2-1-10-DCC-id014
+IIC2133-Estructuras de Datos y Algoritmos-Yadran Etertovic-BC27-2016,1-1-10-DCC-id015
+IIC2233-Programación Avanzada-Karim Pichara-B22-2015,2-1-10-DCC-id016
+IIC2233-Programación Avanzada-Karim Pichara-B23-2016,2-1-10-DCC-id017
+IIC2233-Programación Avanzada-Karim Pichara-B24-2016,1-1-10-DCC-id018
+IIC2233-Programación Avanzada-Christian Pieriger-B24-2015,2-2-10-DCC-id019
+IIC2233-Programación Avanzada-Christian Pieriger-B23-2016,2-2-10-DCC-id020
+IIC2233-Programación Avanzada-Christian Pieriger-B25-2016,1-2-10-DCC-id021
+MAT1203-Algebra lineal-Ivan Huerta-A3-2015,2-1-10-Matemáticas-id022
+MAT1203-Algebra lineal-Ivan Huerta-A3-2016,2-1-10-Matemáticas-id023
+MAT1203-Algebra lineal-Ivan Huerta-A3-2016,1-1-10-Matemáticas-id024
+MAT1203-Algebra lineal-Wolfgang Rivera-A8-2015,2-2-10-Matemáticas-id025
+MAT1203-Algebra lineal-Wolfgang Rivera-A8-2016,2-2-10-Matemáticas-id026
+MAT1203-Algebra lineal-Wolfgang Rivera-A8-2016,1-2-10-Matemáticas-id027
+MAT1203-Algebra lineal-Jose Lopez-A7-2015,2-3-10-Matemáticas-id028
+MAT1203-Algebra lineal-Jose Lopez-A7-2016,2-3-10-Matemáticas-id029
+MAT1203-Algebra lineal-Jose Lopez-A7-2016,1-3-10-Matemáticas-id030
+MAT1620-Cálculo II-Jose Lopez-A1-2015,2-1-10-Matemáticas-id031
+MAT1620-Cálculo II-Jose Lopez-A1-2016,2-1-10-Matemáticas-id032
+MAT1620-Cálculo II-Jose Lopez-A1-2016,1-1-10-Matemáticas-id033
+MAT1620-Cálculo II-Ivan Huerta-A3-2015,2-2-10-Matemáticas-id034
+MAT1620-Cálculo II-Ivan Huerta-A3-2016,2-2-10-Matemáticas-id035
+MAT1620-Cálculo II-Ivan Huerta-A3-2016,1-2-10-Matemáticas-id036
+MAT1620-Cálculo II-Wolfgang Rivera-A5-2015,2-3-10-Matemáticas-id037
+MAT1620-Cálculo II-Wolfgang Rivera-A5-2016,2-3-10-Matemáticas-id038
+MAT1620-Cálculo II-Wolfgang Rivera-A5-2016,1-3-10-Matemáticas-id039
+MAT1610-Cálculo I-Jose Lopez-B23-2015,2-1-10-Matemáticas-id040
+MAT1610-Cálculo I-Jose Lopez-B23-2016,2-1-10-Matemáticas-id041
+MAT1610-Cálculo I-Jose Lopez-B23-2016,1-1-10-Matemáticas-id042
+MAT1610-Cálculo I-Ivan Huerta-B25-2015,2-2-10-Matemáticas-id043
+MAT1610-Cálculo I-Ivan Huerta-B25-2016,2-2-10-Matemáticas-id044
+MAT1610-Cálculo I-Ivan Huerta-B25-2016,1-2-10-Matemáticas-id045
+MAT1610-Cálculo I-Wolfgang Rivera-B22-2015,2-3-10-Física-id046
+MAT1610-Cálculo I-Wolfgang Rivera-B22-2016,2-3-10-Física-id046
+MAT1610-Cálculo I-Wolfgang Rivera-B22-2016,1-3-10-Física-id047
+MAT1630-Cálculo III-Marcel Behar-B21-2015,2-1-10-Matemáticas-id048
+MAT1630-Cálculo III-Marcel Behar-B21-2016,2-1-10-Matemáticas-id049
+MAT1630-Cálculo III-Marcel Behar-B21-2016,1-1-10-Matemáticas-id050
+FIS1513-Estática y Dinámica-Rafael Benguria-B11-2015,2-1-10-Física-id051
+FIS1513-Estática y Dinámica-Rafael Benguria-B11-2016,2-1-10-Física-id052
+FIS1513-Estática y Dinámica-Rafael Benguria-B11-2016,1-1-10-Física-id053
+FIS1503-Física General-Javier Diaz-B02-2015,2-1-10-Física-id054
+FIS1503-Física General-Javier Diaz-B02-2016,2-1-10-Física-id055
+FIS1503-Física General-Javier Diaz-B02-2016,1-1-10-Física-id056
+FIS1523-Termodinámica-Francisco Garri-B01-2015,2-1-10-Física-id057
+FIS1523-Termodinámica-Francisco Garri-B01-2016,2-1-10-Física-id058
+FIS1523-Termodinámica-Francisco Garri-B01-2016,1-1-10-Física-id059
+FIS1533-Electricidad y Magnetismo-Esteban Dib-B15-2015,2-1-10-Física-id060
+FIS1533-Electricidad y Magnetismo-Esteban Dib-B15-2016,2-1-10-Física-id061
+FIS1533-Electricidad y Magnetismo-Esteban Dib-B15-2016,1-1-10-Física-id062
+MAT1640-Ecuaciones Diferenciales-Yair Neuman-B25-2015,2-1-10-Física-id063
+MAT1640-Ecuaciones Diferenciales-Yair Neuman-B25-2016,2-1-10-Física-id064
+MAT1640-Ecuaciones Diferenciales-Yair Neuman-B25-2016,1-1-10-Física-id065
+ING1004-Desafíos de la Igeniería-Aron Kaufman-A5-2015,2-1-10-Industrial-id066
+ING1004-Desafíos de la Igeniería-Aron Kaufman-A5-2016,2-1-10-Industrial-id067
+ING1004-Desafíos de la Igeniería-Aron Kaufman-A5-2016,1-1-10-Industrial-id068
+ICS1513-Introducción a la Economía-David Edelstein-A1-2015,2-1-10-Industrial-id069
+ICS1513-Introducción a la Economía-David Edelstein-A1-2016,2-1-10-Industrial-id070
+ICS1513-Introducción a la Economía-David Edelstein-A1-2016,1-1-10-Industrial-id071
+ICS1113-Optimización-David Edelstein-A2-2015,2-1-10-Industrial-id072
+ICS1113-Optimización-David Edelstein-A2-2016,2-1-10-Industrial-id073
+ICS1113-Optimización-David Edelstein-A2-2016,1-1-10-Industrial-id074
+ICS2613-Contabilidad y Control de Gestión-Benjamin Yulis-A8-2015,2-1-10-Industrial-id075
+ICS2613-Contabilidad y Control de Gestión-Benjamin Yulis-A8-2016,2-1-10-Industrial-id076
+ICS2613-Contabilidad y Control de Gestión-Benjamin Yulis-A8-2016,1-1-10-Industrial-id077
+ICS2813-Organización y Comportamiento en la Empresa-Eitan Bloch-A2-2015,2-1-10-Industrial-id078
+ICS2813-Organización y Comportamiento en la Empresa-Eitan Bloch-A2-2016,2-1-10-Industrial-id079
+ICS2813-Organización y Comportamiento en la Empresa-Eitan Bloch-A2-2016,1-1-10-Industrial-id080
+ICS3313-Marketing-Alexis Sanchez-A1-2015,2-1-10-Industrial-id081
+ICS3313-Marketing-Alexis Sanchez-A1-2016,2-1-10-Industrial-id082
+ICS3313-Marketing-Alexis Sanchez-A1-2016,1-1-10-Industrial-id083
+ICS3413-Finanzas—Benjamin Sas-A4-2015,2-1-10-Industrial-id084
+ICS3413-Finanzas—Benjamin Sas-A4-2016,2-1-10-Industrial-id085
+ICS3413-Finanzas—Benjamin Sas-A4-2016,1-1-10-Industrial-id086
+ICS3013-Evaluación de Proyectos-Arturo Vidal-A6-2015,2-1-10-Industrial-id087
+ICS3013-Evaluación de Proyectos-Arturo Vidal-A6-2016,2-1-10-Industrial-id088
+ICS3013-Evaluación de Proyectos-Arturo Vidal-A6-2016,1-1-10-Industrial-id089
+ICS3213-Gestión de Operaciones—Eduardo Vargas-A7-2015,2-1-10-Industrial-id090
+ICS3213-Gestión de Operaciones—Eduardo Vargas-A7-2016,2-1-10-Industrial-id091
+ICS3213-Gestión de Operaciones—Eduardo Vargas-A7-2016,1-1-10-Industrial-id092
+IIC1253-Matemáticas Discretas-Claudio Bravo-B23-2015,2-1-10-DCC-id093
+IIC1253-Matemáticas Discretas-Claudio Bravo-B23-2016,2-1-10-DCC-id094
+IIC1253-Matemáticas Discretas-Claudio Bravo-B23-2016,1-1-10-DCC-id095
+IIC2343-Arquitectura de Computadores-Jorgue Pozo-B25-2015,2-1-10-DCC-id096
+IIC2343-Arquitectura de Computadores-Jorgue Pozo-B25-2016,2-1-10-DCC-id097
+IIC2343-Arquitectura de Computadores-Jorgue Pozo-B25-2016,1-1-10-DCC-id098
+IIC2713-Sistemas de Información-Joaquin Bustos-B12-2015,2-1-10-DCC-id099
+IIC2713-Sistemas de Información-Joaquin Bustos-B12-2016,2-1-10-DCC-id100
+IIC2713-Sistemas de Información-Joaquin Bustos-B12-2016,1-1-10-DCC-id101
+IIC2413-Bases de Datos-David Pizarro-B13-2015,2-1-10-DCC-id102
+IIC2413-Bases de Datos-David Pizarro-B13-2016,2-1-10-DCC-id103
+IIC2413-Bases de Datos-David Pizarro-B13-2016,1-1-10-DCC-id104
+IIC2733-Modelos de Procesos-David Alvear-B15-2015,2-1-10-DCC-id105
+IIC2733-Modelos de Procesos-David Alvear-B15-2016,2-1-10-DCC-id106
+IIC2733-Modelos de Procesos-David Alvear-B15-2016,1-1-10-DCC-id107
+IIC2333-Sistemas Operativos y Redes-Marcos Rath-B16-2015,2-1-10-DCC-id108
+IIC2333-Sistemas Operativos y Redes-Marcos Rath-B16-2016,2-1-10-DCC-id109
+IIC2333-Sistemas Operativos y Redes-Marcos Rath-B16-2016,1-1-10-DCC-id110
+IIC3103-Taller de Integración-Francisco Avila-BC25-2015,2-1-10-DCC-id111
+IIC3103-Taller de Integración-Francisco Avila-BC25-2016,2-1-10-DCC-id112
+IIC3103-Taller de Integración-Francisco Avila-BC25-2016,1-1-10-DCC-id113
+IIC3703-Gestión de Operaciones TI-Rene Williams-BC26-2015,2-1-10-DCC-id114
+IIC3703-Gestión de Operaciones TI-Rene Williams-BC26-2016,2-1-10-DCC-id115
+IIC3703-Gestión de Operaciones TI-Rene Williams-BC26-2016,1-1-10-DCC-id116
+IIC2154-Proyecto de Especialidad-Alan Birman-BC24-2015,2-1-10-DCC-id117
+IIC2154-Proyecto de Especialidad-Alan Birman-BC24-2016,2-1-10-DCC-id118
+IIC2154-Proyecto de Especialidad-Alan Birman-BC24-2016,1-1-10-DCC-id119

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="420.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.CrearCursoController">
+   <children>
+      <TextField fx:id="TextoSigla" layoutX="124.0" layoutY="75.0" />
+      <TextField fx:id="TextoNombre" layoutX="124.0" layoutY="105.0" />
+      <TextField fx:id="TextoSala" layoutX="124.0" layoutY="135.0" />
+      <TextField fx:id="TextoAño" layoutX="124.0" layoutY="165.0" />
+      <TextField fx:id="TextoSemestre" layoutX="124.0" layoutY="195.0" />
+      <TextField fx:id="TextoSeccion" layoutX="124.0" layoutY="225.0" />
+      <TextField fx:id="TextoCreditos" layoutX="124.0" layoutY="255.0" />
+      <TextField fx:id="TextoDepartamento" layoutX="124.0" layoutY="285.0" />
+      <TextField fx:id="TextoId" layoutX="124.0" layoutY="315.0" />
+      <Button alignment="CENTER" layoutX="124.0" layoutY="379.0" mnemonicParsing="false" onAction="#handleCrearAction" text="Crear" />
+      <Label layoutX="36.0" layoutY="315.0" text="Id:" />
+      <Label layoutX="36.0" layoutY="285.0" text="Departamento:" />
+      <Label layoutX="36.0" layoutY="255.0" text="Créditos:" />
+      <Label layoutX="36.0" layoutY="225.0" text="Sección:" />
+      <Label layoutX="36.0" layoutY="195.0" text="Semestre:" />
+      <Label layoutX="36.0" layoutY="165.0" text="Año:" />
+      <Label layoutX="36.0" layoutY="135.0" text="Sala:" />
+      <Label layoutX="36.0" layoutY="105.0" text="Nombre:" />
+      <Label layoutX="36.0" layoutY="75.0" text="Sigla:" />
+      <Label alignment="CENTER" layoutX="105.0" layoutY="31.0" text="Nuevo Alumno" />
+      <Label layoutX="36.0" layoutY="345.0" text="Profesor:" />
+      <TextField fx:id="TextoProfesor" layoutX="124.0" layoutY="345.0" />
+   </children>
+</AnchorPane>

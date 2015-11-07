@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.MenuAdminController">
+   <children>
+      <Label layoutX="104.0" layoutY="33.0" text="Elija una acción" />
+      <Button layoutX="90.0" layoutY="80.0" mnemonicParsing="false" onAction="#handleCrearRamoAction" text="Crear Ramo" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="55.0" />
+      <Button layoutX="90.0" layoutY="119.0" mnemonicParsing="false" onAction="#handleBorrarRamoAction" text="Borrar Ramo" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="55.0" />
+      <Button layoutX="88.0" layoutY="156.0" mnemonicParsing="false" onAction="#handleCrearMallaAction" text="Crear Malla" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="55.0" />
+      <Button layoutX="87.0" layoutY="194.0" mnemonicParsing="false" onAction="#handleBorrarMallaAction" text="Borrar Malla" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="55.0" />
+      <Button layoutX="87.0" layoutY="230.0" mnemonicParsing="false" onAction="#handleCreditosSemestreAction" text="Máximo Créditos Semestre" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="55.0" />
+      <Button layoutX="87.0" layoutY="267.0" mnemonicParsing="false" onAction="#handleCreditosReprobadosAction" text="Máximo Créditos Reprobados" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="55.0" />
+      <Button layoutX="88.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleEditarNoticiasAction" text="Editar Noticias" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="55.0" />
+   </children>
+</AnchorPane>
