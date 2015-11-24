@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.EditarRamoController">
+   <children>
+      <Label layoutX="89.0" layoutY="24.0" text="id del Ramo a Editar" AnchorPane.leftAnchor="85.0" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="25.0" />
+      <TextField fx:id="texto" layoutX="14.0" layoutY="51.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="50.0" />
+      <Button layoutX="208.0" layoutY="51.0" mnemonicParsing="false" onAction="#handleEditarAction" text="Editar" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="50.0" />
+      <Label layoutX="15.0" layoutY="94.0" text="Sigla:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="100.0" />
+      <Label layoutX="15.0" layoutY="118.0" text="Nombre:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="140.0" />
+      <Label layoutX="15.0" layoutY="142.0" text="Profesor:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="180.0" />
+      <Label layoutX="15.0" layoutY="170.0" text="Sala:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="220.0" />
+      <Label layoutX="15.0" layoutY="198.0" text="Año,Semestre:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="260.0" />
+      <Label layoutX="15.0" layoutY="225.0" text="Sección:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="300.0" />
+      <Label layoutX="15.0" layoutY="252.0" text="Créditos:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="340.0" />
+      <Label layoutX="15.0" layoutY="284.0" text="Departamento:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="380.0" />
+      <Label layoutX="15.0" layoutY="312.0" text="Requisitos:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="420.0" />
+      <Label layoutX="15.0" layoutY="343.0" text="Horario:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="460.0" />
+      <Label layoutX="15.0" layoutY="372.0" text="id:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="500.0" />
+      <TextField fx:id="texto1" layoutX="85.0" layoutY="89.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="100.0" />
+      <TextField fx:id="texto2" layoutX="85.0" layoutY="122.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="140.0" />
+      <TextField fx:id="texto3" layoutX="85.0" layoutY="157.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="180.0" />
+      <TextField fx:id="texto4" layoutX="85.0" layoutY="193.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="220.0" />
+      <TextField fx:id="texto5" layoutX="85.0" layoutY="229.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="260.0" />
+      <TextField fx:id="texto6" layoutX="85.0" layoutY="261.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="300.0" />
+      <TextField fx:id="texto7" layoutX="85.0" layoutY="299.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="340.0" />
+      <TextField fx:id="texto8" layoutX="85.0" layoutY="330.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="380.0" />
+      <TextField fx:id="texto9" layoutX="85.0" layoutY="359.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="420.0" />
+      <TextField fx:id="texto10" layoutX="85.0" layoutY="389.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="460.0" />
+      <TextField fx:id="texto11" layoutX="85.0" layoutY="423.0" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="500.0" />
+      <Button layoutX="85.0" layoutY="544.0" mnemonicParsing="false" onAction="#handleEditarProgramaAction" text="Editar Programa" AnchorPane.leftAnchor="40.0" />
+      <Button layoutX="206.0" layoutY="544.0" mnemonicParsing="false" onAction="#handleEditarRamoAction" text="Editar Curso" AnchorPane.rightAnchor="40.0" />
+   </children>
+</AnchorPane>

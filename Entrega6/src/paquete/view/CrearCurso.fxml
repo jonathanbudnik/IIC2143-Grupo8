@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.CrearCursoController">
+   <children>
+      <TextField fx:id="TextoSigla" layoutX="124.0" layoutY="75.0" AnchorPane.topAnchor="75.0" />
+      <TextField fx:id="TextoNombre" layoutX="124.0" layoutY="105.0" AnchorPane.topAnchor="105.0" />
+      <TextField fx:id="TextoSala" layoutX="124.0" layoutY="135.0" AnchorPane.topAnchor="135.0" />
+      <TextField fx:id="TextoAño" layoutX="124.0" layoutY="165.0" AnchorPane.topAnchor="165.0" />
+      <TextField fx:id="TextoSemestre" layoutX="124.0" layoutY="195.0" AnchorPane.topAnchor="195.0" />
+      <TextField fx:id="TextoSeccion" layoutX="124.0" layoutY="225.0" AnchorPane.topAnchor="225.0" />
+      <TextField fx:id="TextoCreditos" layoutX="124.0" layoutY="255.0" AnchorPane.topAnchor="255.0" />
+      <TextField fx:id="TextoDepartamento" layoutX="124.0" layoutY="285.0" AnchorPane.topAnchor="285.0" />
+      <TextField fx:id="TextoId" layoutX="124.0" layoutY="315.0" AnchorPane.topAnchor="315.0" />
+      <TextField fx:id="TextoProfesor" layoutX="124.0" layoutY="345.0" AnchorPane.topAnchor="345.0" />
+      <TextField fx:id="TextoRequisito" layoutX="124.0" layoutY="374.0" AnchorPane.topAnchor="375.0" />
+      <TextField layoutX="124.0" layoutY="403.0" AnchorPane.topAnchor="405.0" />
+      <Button alignment="CENTER" layoutX="124.0" layoutY="379.0" mnemonicParsing="false" onAction="#handleCrearAction" text="Crear" AnchorPane.bottomAnchor="30.0" />
+      <Label layoutX="36.0" layoutY="315.0" text="Id:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="315.0" />
+      <Label layoutX="36.0" layoutY="285.0" text="Departamento:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="285.0" />
+      <Label layoutX="36.0" layoutY="255.0" text="Créditos:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="255.0" />
+      <Label layoutX="36.0" layoutY="225.0" text="Sección:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="225.0" />
+      <Label layoutX="36.0" layoutY="195.0" text="Semestre:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="195.0" />
+      <Label layoutX="36.0" layoutY="165.0" text="Año:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="165.0" />
+      <Label layoutX="36.0" layoutY="135.0" text="Sala:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="135.0" />
+      <Label layoutX="36.0" layoutY="105.0" text="Nombre:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="105.0" />
+      <Label layoutX="36.0" layoutY="75.0" text="Sigla:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="75.0" />
+      <Label alignment="CENTER" layoutX="105.0" layoutY="31.0" text="Nuevo Curso" />
+      <Label layoutX="36.0" layoutY="345.0" text="Profesor:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="345.0" />
+      <Label layoutX="35.0" layoutY="387.0" text="Requisitos:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="375.0" />
+      <Label layoutX="35.0" layoutY="416.0" text="Horario:" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="405.0" />
+   </children>
+</AnchorPane>

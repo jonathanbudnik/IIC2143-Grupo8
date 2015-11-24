@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.BotarRamoController">
+   <children>
+      <Label fx:id="label" layoutX="142.0" layoutY="96.0" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="25.0" />
+      <Label alignment="BOTTOM_LEFT" layoutX="46.0" layoutY="297.0" text="Curso a botar:" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="30.0" />
+      <TextField fx:id="texto" layoutX="99.0" layoutY="292.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="20.0" />
+      <Button layoutX="113.0" layoutY="348.0" mnemonicParsing="false" onAction="#handleBorrarAction" text="Botar" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" />
+   </children>
+</AnchorPane>

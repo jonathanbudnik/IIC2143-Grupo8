@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.ElegirMallaController">
+   <children>
+      <Label layoutX="65.0" layoutY="55.0" text="Seleccione una malla nueva" />
+      <Button layoutX="75" layoutY="200" onAction="#handleSeleccionarAction" prefWidth="150" text="Seleccionar" />
+      <TextField fx:id="texto" layoutX="67.0" layoutY="123.0" />
+   </children>
+</AnchorPane>

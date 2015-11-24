@@ -1,0 +1,120 @@
+IIC1103-Introducción a la Programación-Jorge Baier-A5-2015,2-1-10-DCC-null—M2,J2-id001
+IIC1103-Introducción a la Programación-Jorge Baier-A7-2016,2-1-10-DCC-null—M2,J2-id002
+IIC1103-Introducción a la Programación-Jorge Baier-A4-2016,1-1-10-DCC-null—M2,J2-id003
+IIC1103-Introducción a la Programación-Jorge Munoz-A6-2015,2-2-10-DCC-null—M2,J2-id004
+IIC1103-Introducción a la Programación-Jorge Munoz-A3-2016,2-2-10-DCC-null—M2,J2-id005
+IIC1103-Introducción a la Programación-Jorge Munoz-A1-2016,1-2-10-DCC-null—M2,J2-id006
+IIC1103-Introducción a la Programación-Cristian Ruz-E17-2015,2-3-10-DCC-null—M2,J2-id007
+IIC1103-Introducción a la Programación-Cristian Ruz-E14-2016,2-3-10-DCC-null—M2,J2-id008
+IIC1103-Introducción a la Programación-Cristian Ruz-E15-2016,1-3-10-DCC-null—M2,J2-id009
+IIC2143-Ingeniería de Software-Yadran Etertovic-A2-2015,2-1-10-DCC-IIC2233-L1,W1,V1-id010
+IIC2143-Ingeniería de Software-Yadran Etertovic-A3-2016,2-1-10-DCC-IIC2233-L1,W1,V1-id011
+IIC2143-Ingeniería de Software-Yadran Etertovic-A4-2016,1-1-10-DCC-IIC2233-L1,W1,V1-id012
+IIC2133-Estructuras de Datos y Algoritmos-Yadran Etertovic-BC26-2015,2-1-10-DCC-L1,W1,V1-id013
+IIC2133-Estructuras de Datos y Algoritmos-Yadran Etertovic-BC25-2016,2-1-10-DCC-L1,W1,V1-id014
+IIC2133-Estructuras de Datos y Algoritmos-Yadran Etertovic-BC27-2016,1-1-10-DCC-L1,W1,V1-id015
+IIC2233-Programación Avanzada-Karim Pichara-B22-2015,2-1-10-DCC-IIC1103—M2,J2-id016
+IIC2233-Programación Avanzada-Karim Pichara-B23-2016,2-1-10-DCC—IIC1103—M2,J2-id017
+IIC2233-Programación Avanzada-Karim Pichara-B24-2016,1-1-10-DCC—IIC1103—M2,J2-id018
+IIC2233-Programación Avanzada-Christian Pieriger-B24-2015,2-2-10-DCC—IIC1103—M2,J2-id019
+IIC2233-Programación Avanzada-Christian Pieriger-B23-2016,2-2-10-DCC—IIC1103—M2,J2-id020
+IIC2233-Programación Avanzada-Christian Pieriger-B25-2016,1-2-10-DCC-IIC1103—M2,J2-id021
+MAT1203-Algebra lineal-Ivan Huerta-A3-2015,2-1-10-Matemáticas-null-L1,W1,V1-id022
+MAT1203-Algebra lineal-Ivan Huerta-A3-2016,2-1-10-Matemáticas-null-L1,W1,V1-id023
+MAT1203-Algebra lineal-Ivan Huerta-A3-2016,1-1-10-Matemáticas-null-L1,W1,V1-id024
+MAT1203-Algebra lineal-Wolfgang Rivera-A8-2015,2-2-10-Matemáticas-null-L1,W1,V1-id025
+MAT1203-Algebra lineal-Wolfgang Rivera-A8-2016,2-2-10-Matemáticas-null-L1,W1,V1-id026
+MAT1203-Algebra lineal-Wolfgang Rivera-A8-2016,1-2-10-Matemáticas-null-L1,W1,V1-id027
+MAT1203-Algebra lineal-Jose Lopez-A7-2015,2-3-10-Matemáticas-null-L1,W1,V1-id028
+MAT1203-Algebra lineal-Jose Lopez-A7-2016,2-3-10-Matemáticas-null-L1,W1,V1-id029
+MAT1203-Algebra lineal-Jose Lopez-A7-2016,1-3-10-Matemáticas-null-L1,W1,V1-id030
+MAT1620-Cálculo II-Jose Lopez-A1-2015,2-1-10-Matemáticas-MAT1610-L3,W3,V3-id031
+MAT1620-Cálculo II-Jose Lopez-A1-2016,2-1-10-Matemáticas-MAT1610-L3,W3,V3-id032
+MAT1620-Cálculo II-Jose Lopez-A1-2016,1-1-10-Matemáticas-MAT1610-L3,W3,V3-id033
+MAT1620-Cálculo II-Ivan Huerta-A3-2015,2-2-10-Matemáticas-MAT1610-L3,W3,V3-id034
+MAT1620-Cálculo II-Ivan Huerta-A3-2016,2-2-10-Matemáticas-MAT1610-L3,W3,V3-id035
+MAT1620-Cálculo II-Ivan Huerta-A3-2016,1-2-10-Matemáticas-MAT1610-L3,W3,V3-id036
+MAT1620-Cálculo II-Wolfgang Rivera-A5-2015,2-3-10-Matemáticas-MAT1610-L3,W3,V3-id037
+MAT1620-Cálculo II-Wolfgang Rivera-A5-2016,2-3-10-Matemáticas—MAT1610-L3,W3,V3-id038
+MAT1620-Cálculo II-Wolfgang Rivera-A5-2016,1-3-10-Matemáticas-MAT1610-L3,W3,V3-id039
+MAT1610-Cálculo I-Jose Lopez-B23-2015,2-1-10-Matemáticas-null-L3,W3,V3-id040
+MAT1610-Cálculo I-Jose Lopez-B23-2016,2-1-10-Matemáticas-null-L3,W3,V3-id041
+MAT1610-Cálculo I-Jose Lopez-B23-2016,1-1-10-Matemáticas-null-L3,W3,V3-id042
+MAT1610-Cálculo I-Ivan Huerta-B25-2015,2-2-10-Matemáticas-null-L3,W3,V3-id043
+MAT1610-Cálculo I-Ivan Huerta-B25-2016,2-2-10-Matemáticas-null-L3,W3,V3-id044
+MAT1610-Cálculo I-Ivan Huerta-B25-2016,1-2-10-Matemáticas-null-L3,W3,V3-id045
+MAT1610-Cálculo I-Wolfgang Rivera-B22-2015,2-3-10-Matemáticas-null-L3,W3,V3-id046
+MAT1610-Cálculo I-Wolfgang Rivera-B22-2016,2-3-10-Matemáticas-null-L3,W3,V3-id046
+MAT1610-Cálculo I-Wolfgang Rivera-B22-2016,1-3-10-Matemáticas-null-L3,W3,V3-id047
+MAT1630-Cálculo III-Marcel Behar-B21-2015,2-1-10-Matemáticas-MAT1620-L1,W1,V1-id048
+MAT1630-Cálculo III-Marcel Behar-B21-2016,2-1-10-Matemáticas-MAT1620-L1,W1,V1-id049
+MAT1630-Cálculo III-Marcel Behar-B21-2016,1-1-10-Matemáticas-MAT1620-L1,W1,V1-id050
+FIS1513-Estática y Dinámica-Rafael Benguria-B11-2015,2-1-10-Física-FIS1503-L3,W3,V3-id051
+FIS1513-Estática y Dinámica-Rafael Benguria-B11-2016,2-1-10-Física-FIS1503-L3,W3,V3-id052
+FIS1513-Estática y Dinámica-Rafael Benguria-B11-2016,1-1-10-Física-FIS1503-L3,W3,V3-id053
+FIS1503-Física General-Javier Diaz-B02-2015,2-1-10-Física-null-L3,W3,V3-id054
+FIS1503-Física General-Javier Diaz-B02-2016,2-1-10-Física-null-L3,W3,V3-id055
+FIS1503-Física General-Javier Diaz-B02-2016,1-1-10-Física-null-L3,W3,V3-id056
+FIS1523-Termodinámica-Francisco Garri-B01-2015,2-1-10-Física-null—M2,J2-id057
+FIS1523-Termodinámica-Francisco Garri-B01-2016,2-1-10-Física-null—M2,J2-id058
+FIS1523-Termodinámica-Francisco Garri-B01-2016,1-1-10-Física-null—M2,J2-id059
+FIS1533-Electricidad y Magnetismo-Esteban Dib-B15-2015,2-1-10-Física-null-L1,W1,V1-id060
+FIS1533-Electricidad y Magnetismo-Esteban Dib-B15-2016,2-1-10-Física-null-L1,W1,V1-id061
+FIS1533-Electricidad y Magnetismo-Esteban Dib-B15-2016,1-1-10-Física-null-L1,W1,V1-id062
+MAT1640-Ecuaciones Diferenciales-Yair Neuman-B25-2015,2-1-10-Física-null—M2,J2-id063
+MAT1640-Ecuaciones Diferenciales-Yair Neuman-B25-2016,2-1-10-Física-null—M2,J2-id064
+MAT1640-Ecuaciones Diferenciales-Yair Neuman-B25-2016,1-1-10-Física-null—M2,J2-id065
+ING1004-Desafíos de la Igeniería-Aron Kaufman-A5-2015,2-1-10-Industrial-null—M2,J2-id066
+ING1004-Desafíos de la Igeniería-Aron Kaufman-A5-2016,2-1-10-Industrial-null—M2,J2-id067
+ING1004-Desafíos de la Igeniería-Aron Kaufman-A5-2016,1-1-10-Industrial-null—M2,J2-id068
+ICS1513-Introducción a la Economía-David Edelstein-A1-2015,2-1-10-Industrial-null-L1,W1,V1-id069
+ICS1513-Introducción a la Economía-David Edelstein-A1-2016,2-1-10-Industrial-null-L1,W1,V1-id070
+ICS1513-Introducción a la Economía-David Edelstein-A1-2016,1-1-10-Industrial-null-L1,W1,V1-id071
+ICS1113-Optimización-David Edelstein-A2-2015,2-1-10-Industrial-null—L2,W2,V2-id072
+ICS1113-Optimización-David Edelstein-A2-2016,2-1-10-Industrial-null—L2,W2,V2-id073
+ICS1113-Optimización-David Edelstein-A2-2016,1-1-10-Industrial-null—L2,W2,V2-id074
+ICS2613-Contabilidad y Control de Gestión-Benjamin Yulis-A8-2015,2-1-10-Industrial-null—M2,J2-id075
+ICS2613-Contabilidad y Control de Gestión-Benjamin Yulis-A8-2016,2-1-10-Industrial-null—M2,J2-id076
+ICS2613-Contabilidad y Control de Gestión-Benjamin Yulis-A8-2016,1-1-10-Industrial-null—M2,J2-id077
+ICS2813-Organización y Comportamiento en la Empresa-Eitan Bloch-A2-2015,2-1-10-Industrial-null—L2,W2,V2-id078
+ICS2813-Organización y Comportamiento en la Empresa-Eitan Bloch-A2-2016,2-1-10-Industrial-null—L2,W2,V2-id079
+ICS2813-Organización y Comportamiento en la Empresa-Eitan Bloch-A2-2016,1-1-10-Industrial-null—L2,W2,V2-id080
+ICS3313-Marketing-Alexis Sanchez-A1-2015,2-1-10-Industrial-null—M2,J2-id081
+ICS3313-Marketing-Alexis Sanchez-A1-2016,2-1-10-Industrial-null—M2,J2-id082
+ICS3313-Marketing-Alexis Sanchez-A1-2016,1-1-10-Industrial-null—M2,J2-id083
+ICS3413-Finanzas—Benjamin Sas-A4-2015,2-1-10-Industrial-null—M2,J2-id084
+ICS3413-Finanzas—Benjamin Sas-A4-2016,2-1-10-Industrial-null—M2,J2-id085
+ICS3413-Finanzas—Benjamin Sas-A4-2016,1-1-10-Industrial-null—M2,J2-id086
+ICS3013-Evaluación de Proyectos-Arturo Vidal-A6-2015,2-1-10-Industrial-null-L3,W3,V3-id087
+ICS3013-Evaluación de Proyectos-Arturo Vidal-A6-2016,2-1-10-Industrial-null-L3,W3,V3-id088
+ICS3013-Evaluación de Proyectos-Arturo Vidal-A6-2016,1-1-10-Industrial-null-L3,W3,V3-id089
+ICS3213-Gestión de Operaciones—Eduardo Vargas-A7-2015,2-1-10-Industrial-null-L1,W1,V1-id090
+ICS3213-Gestión de Operaciones—Eduardo Vargas-A7-2016,2-1-10-Industrial-null-L1,W1,V1-id091
+ICS3213-Gestión de Operaciones—Eduardo Vargas-A7-2016,1-1-10-Industrial-null-L1,W1,V1-id092
+IIC1253-Matemáticas Discretas-Claudio Bravo-B23-2015,2-1-10-DCC-null—L2,W2,V2-id093
+IIC1253-Matemáticas Discretas-Claudio Bravo-B23-2016,2-1-10-DCC-null—L2,W2,V2-id094
+IIC1253-Matemáticas Discretas-Claudio Bravo-B23-2016,1-1-10-DCC-null—L2,W2,V2-id095
+IIC2343-Arquitectura de Computadores-Jorgue Pozo-B25-2015,2-1-10-DCC-null-L3,W3,V3-id096
+IIC2343-Arquitectura de Computadores-Jorgue Pozo-B25-2016,2-1-10-DCC-null-L3,W3,V3-id097
+IIC2343-Arquitectura de Computadores-Jorgue Pozo-B25-2016,1-1-10-DCC-null-L3,W3,V3-id098
+IIC2713-Sistemas de Información-Joaquin Bustos-B12-2015,2-1-10-DCC-null—L2,W2,V2-id099
+IIC2713-Sistemas de Información-Joaquin Bustos-B12-2016,2-1-10-DCC-null—L2,W2,V2-id100
+IIC2713-Sistemas de Información-Joaquin Bustos-B12-2016,1-1-10-DCC-null—L2,W2,V2-id101
+IIC2413-Bases de Datos-David Pizarro-B13-2015,2-1-10-DCC-null—M2,J2-id102
+IIC2413-Bases de Datos-David Pizarro-B13-2016,2-1-10-DCC-null—M2,J2-id103
+IIC2413-Bases de Datos-David Pizarro-B13-2016,1-1-10-DCC-null—M2,J2-id104
+IIC2733-Modelos de Procesos-David Alvear-B15-2015,2-1-10-DCC-null-L3,W3,V3-id105
+IIC2733-Modelos de Procesos-David Alvear-B15-2016,2-1-10-DCC-null-L3,W3,V3-id106
+IIC2733-Modelos de Procesos-David Alvear-B15-2016,1-1-10-DCC-null-L3,W3,V3-id107
+IIC2333-Sistemas Operativos y Redes-Marcos Rath-B16-2015,2-1-10-DCC-null—L2,W2,V2-id108
+IIC2333-Sistemas Operativos y Redes-Marcos Rath-B16-2016,2-1-10-DCC-null—L2,W2,V2-id109
+IIC2333-Sistemas Operativos y Redes-Marcos Rath-B16-2016,1-1-10-DCC-null—L2,W2,V2-id110
+IIC3103-Taller de Integración-Francisco Avila-BC25-2015,2-1-10-DCC-null—L2,W2,V2-id111
+IIC3103-Taller de Integración-Francisco Avila-BC25-2016,2-1-10-DCC-null—L2,W2,V2-id112
+IIC3103-Taller de Integración-Francisco Avila-BC25-2016,1-1-10-DCC-null—L2,W2,V2-id113
+IIC3703-Gestión de Operaciones TI-Rene Williams-BC26-2015,2-1-10-DCC-null-L1,W1,V1-id114
+IIC3703-Gestión de Operaciones TI-Rene Williams-BC26-2016,2-1-10-DCC-null-L1,W1,V1-id115
+IIC3703-Gestión de Operaciones TI-Rene Williams-BC26-2016,1-1-10-DCC-null-L1,W1,V1-id116
+IIC2154-Proyecto de Especialidad-Alan Birman-BC24-2015,2-1-10-DCC-null—M2,J2-id117
+IIC2154-Proyecto de Especialidad-Alan Birman-BC24-2016,2-1-10-DCC-null—M2,J2-id118
+IIC2154-Proyecto de Especialidad-Alan Birman-BC24-2016,1-1-10-DCC-null—M2,J2-id119

@@ -1,0 +1,92 @@
+CURSO              :      INGENIERÍA DE SOFTWARE
+TRADUCCIÓN         :      SOFTWARE ENGINEERING
+SIGLA              :      IIC2143
+CRÉDITOS           :      10
+MÓDULOS            :      03
+REQUISITOS         :      IIC2233
+CARÁCTER           :      MÍNIMO
+DISCIPLINA         :      INGENIERÍA
+
+
+I.   DESCRIPCIÓN
+
+     Este curso enseña técnicas para llevar a cabo un verdadero proyecto de desarrollo de software, desde el
+     descubrimiento y la especificación de los requisitos, al interactuar con el cliente y/o usuarios, a la aplicación,
+     experimentación y demostración de una solicitud que cumple los requisitos.
+
+
+II.  OBJETIVOS
+
+     Al finalizar el curso el alumno será capaz de:
+
+     1.    Llevar a cabo el desarrollo de un sistema de una manera metódica, comenzando por la formulación de
+           los requisitos del sistema, desarrollando un diseño modular, refinando este diseño en una
+           implementación que identifique y minimice los riesgos, codificando de manera que se pueda integrar
+           con el trabajo de un equipo, y usando métodos para identificar y prevenir fallas.
+     2.    Desarrollar requisitos claros, concisos y precisos para el desarrollo de un nuevo producto de software
+           (sistema), basados en las necesidades de los usuarios y otros interesados.
+     3.    Aplicar principios y patrones al diseñar un sistema y al evaluar el diseño de un sistema: abstracción,
+           descomposición, ocultación de información, acoplamiento, cohesión, etc.
+     4.    Crear diagramas de clases en UML que modelen el dominio de un problema y la arquitectura de
+           software de un sistema.
+     5.    Crear diagramas de secuencia, de estados, y de actividades en UML que modelen los casos de uso y,
+           más en general, el comportamiento de un sistema.
+     6.    Aplicar técnicas de testing simples a distintos niveles de un producto de software; por ejemplo, escribir
+           pruebas de caja negra básicas para clases y métodos.
+
+
+III. CONTENIDOS
+
+     1.    Introducción. La ingeniería de software y su lugar como una disciplina de ingeniería. Revisión de los
+           principios de la orientación a objetos. El proceso de desarrollo de software.
+     2.    Análisis. Análisis de requisitos; casos de uso y diseño centrado en el usuario. Análisis orientado a
+           objetos y diagramas de clases en UML; introducción al modelamiento formal usando OCL; ejemplos
+           de construcción de diagramas de clases para modelar varios dominios.
+     3.    Diseño. Representación del comportamiento del software: diagramas de secuencia, de estados, y de
+           actividades. Principios generales de diseño de software: creador, experto en información, bajo
+           acoplamiento, controlador, alta cohesión, polimorfismo, fabricación pura, indirección, variaciones
+           protegidas. Patrones de diseño: adaptador, fábrica, singleton, estrategia, compuesto, fachada,
+           observador, proxy. Arquitectura de software: arquitecturas distribuidas, tubos y filtros, model-view-
+           controller, etc.
+     4.    Testing. Calidad de software. Testing sin ejecución: "caminatas", inspecciones. Testing basado en
+           ejecución: utilidad, confiabilidad, robustez, desempeño, corrección.
+
+
+
+
+                                  PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE
+                                     FACULTAD DE INGENIERÍA / Mayo de 2009
+                                                                                                                     1
+
+IV. METODOLOGÍA
+
+    Módulos semanales:
+    -      Cátedras: 2
+    -      Ayudantías: 1
+
+    El curso se realiza utilizando metodologías de enseñanza centradas en el alumno que permitan a los
+    estudiantes desarrollar las competencias definidas en los objetivos del curso.
+    Este curso está diseñado de forma tal que el alumno dedique al estudio personal un promedio de 6 hrs. a la
+    semana.
+
+
+V.  EVALUACIÓN
+
+    Las evaluaciones pueden ser por medio de pruebas, proyectos y/o tareas.
+
+
+VI. BIBLIOGRAFÍA
+
+    Textos Mínimos
+
+    Larman, Craig                             Applying UML and Patterns, 2nd edition. Prentice Hall.
+
+    Textos Complementarios
+
+    Freeman, Freeman, Sierra y Bates          Head First Design Patterns. O'Reilly, 2004.
+
+
+
+
+                                  PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE
+                                    FACULTAD DE INGENIERÍA / Mayo de 2009

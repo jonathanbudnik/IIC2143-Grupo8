@@ -1,0 +1,141 @@
+CURSO              :       ECUACIONES DIFERENCIALES
+TRADUCCIÓN         :       DIFFERENTIAL ECUATIONS
+SIGLA              :       MAT1640
+CRÉDITOS           :       10
+MÓDULOS            :       03
+REQUISITOS         :       MAT1126 y MAT1216
+CARÁCTER           :       MÍNIMO
+DISCIPLINA         :       MATEMÁTICA
+
+
+I.   DESCRIPCIÓN
+
+     El objetivo de curso es introducir al alumno a los conceptos y métodos básicos asociados a ecuaciones
+     diferenciales, y mostrar sus diversas aplicaciones a distintos ámbitos de la Ingeniería. El curso analiza en
+     detalle las ecuaciones diferenciales de primer y segundo orden, los sistemas lineales de ecuaciones
+     diferenciales y los diversos métodos de resolución. También presenta herramientas del análisis cualitativo de
+     las soluciones de diversas ecuaciones diferenciales.
+
+
+II.  OBJETIVOS
+
+     1.     Explicar el concepto de un problema de valor inicial y aplicarlo en la resolución de problemas.
+     2.     Modelar situaciones sencillas de la realidad y de los fenómenos físicos básicos mediante ecuaciones
+            diferenciales.
+     3.     Reconocer el tipo de una ecuación diferencial (lineal o no, grado, orden), identificar y utilizar los
+            distintos métodos disponibles para la solución de acuerdo con el caso.
+     4.     Interpretar el comportamiento cualitativo de las soluciones de la ecuación no lineal de primer orden en
+            términos de su campo de pendientes.
+     5.     Explicar la estructura del conjunto de soluciones de una ecuación o sistema lineal y aplicarla en la
+            resolución de problemas.
+     6.     Calcular las soluciones de ecuaciones lineales y sistemas lineales de 2x2 y 3x3 de coeficientes
+            constantes.
+     7.     Aplicar la transformada de Laplace a funciones conocidas.
+     8.     Aplicar la matriz exponencial en la resolución de problemas.
+     9.     Determinar el comportamiento cualitativo de las soluciones de sistemas no lineales de 2x2 en la
+            vecindad de los puntos crítico.
+
+
+III. CONTENIDOS
+
+     1. Introducción.
+            1.1    Modelación de situaciones simples.
+            1.2    Concepto de solución.
+            1.3    Problemas de valores iniciales.
+            1.4    Reducción de ecuaciones a sistemas de primer orden.
+
+     2.     Ecuaciones diferenciales de primer orden.
+            2.1    Resolución de ecuaciones: separación de variables, ecuaciones lineales, ecuaciones exactas,
+                   cambios de variables.
+            2.2    Campos de pendientes.
+            2.3    Métodos numéricos: método de Euler, método de Runge-Kutta. (incluye RK para sistemas
+                   y'=f(t,y), y en Rn).
+            2.4    Existencia y unicidad de soluciones.
+            2.5    Aplicaciones.
+            2.6    Análisis cualitativo de ecuaciones autónomas de primer orden.
+            2.7    Equilibrio, líneas de fase, clasificación, bifurcaciones simples.
+
+
+
+                                   PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE
+                                     FACULTAD DE MATEMÁTICAS / Enero 2013
+                                                                                                                  1
+
+    3.    Ecuaciones lineales de segundo orden.
+          3.1   Ecuaciones lineales de segundo orden.
+          3.2   Teoría general, existencia y unicidad.
+          3.3   Ecuaciones homogéneas de coeficientes constantes.
+          3.4   Ecuaciones no homogéneas: coeficientes indeterminados y variación de parámetros.
+          3.5   Aplicaciones.
+          3.6   Generalización a ecuaciones de orden superior.
+          3.7   Problemas con valores en la frontera.
+
+    4.    Métodos con series de potencia.
+          4.1 Introducción, solución en series en torno a puntos ordinarios.
+
+    5.    Transformada de Laplace.
+          5.1   Transformadas de Laplace y transformadas inversas.
+          5.2   Propiedades: teoremas de traslación, transformadas de funciones a tramos, derivadas de
+                transformadas, transformadas de derivadas, integrales y funciones periódicas.
+          5.3   Convoluciones.
+          5.4   Aplicaciones a la solución de ecuaciones diferenciales y sistemas, integro-diferenciales.
+          5.5   Función impulso y aplicaciones.
+
+    6.    Sistemas lineales de ecuaciones diferenciales.
+          6.1   Teoría general, existencia y unicidad.
+          6.2   Sistemas homogéneos de coeficientes constantes: valores propios, exponencial de matrices.
+          6.3   Aplicaciones.
+          6.4   Sistemas lineales no homogéneos.
+
+    7.    Teoría cualitativa.
+          7.1   Estabilidad.
+          7.2   Puntos de equilibrio.
+          7.3   Análisis cualitativo.
+          7.4   El caso lineal.
+          7.5   Linealización, funciones constantes de movimiento, funciones de Lyapunov.
+          7.6   Aplicaciones.
+
+
+IV. METODOLOGÍA
+
+    -     Clases expositivas.
+    -     Laboratorios.
+    -     Ayudantías.
+
+
+V.  EVALUACIÓN
+
+    -     Pruebas
+    -     Proyectos y/o tareas.
+
+
+VI. BIBLIOGRAFÍA
+
+    Textos mínimos:
+
+    Edwards & Penney                         Ecuaciones Diferenciales. 2ª Ed. México, Pearson Educación,
+                                             2001.
+
+
+
+
+                                PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE
+                                  FACULTAD DE MATEMÁTICAS / Enero 2013
+                                                                                                            2
+
+Textos complementarios:
+
+Blanchard, P., R. L. Devaney & G. R. Hall
+                                        Ecuaciones Diferenciales. Thomson, 1999.
+
+Nagle, Staff & Zinder                   Ecuaciones Diferenciales y Problemas con Valores de Frontera. 3ª
+                                        Ed. Addison Wesley, 2001.
+
+Simmons, F.                             Ecuaciones Diferenciales con aplicaciones y notas históricas.
+                                        México, McGraw Hill, 1977.
+
+
+
+
+                           PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE
+                             FACULTAD DE MATEMÁTICAS / Enero 2013

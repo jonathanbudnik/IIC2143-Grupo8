@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.IngresoProfesorController">
+   <children>
+      <Button alignment="CENTER" layoutX="116.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleIngresarAction" text="Ingresar" />
+      <TextField fx:id="TextoRut" alignment="CENTER" layoutX="67.0" layoutY="111.0" />
+      <PasswordField fx:id="TextoContraseña" layoutX="70.0" layoutY="190.0" />
+      <Label alignment="CENTER" layoutX="118.0" layoutY="164.0" text="Contraseña" />
+      <Label alignment="CENTER" layoutX="140.0" layoutY="87.0" text="Rut" />
+      <Label alignment="CENTER" layoutX="95.0" layoutY="32.0" text="Profesor Registrado" />
+   </children>
+</AnchorPane>

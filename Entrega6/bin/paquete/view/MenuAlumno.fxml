@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paquete.view.MenuAlumnoController">
+   <children>
+      <Label layoutX="104.0" layoutY="33.0" text="Elija una acción" />
+      <Button layoutX="86.0" layoutY="79.0" mnemonicParsing="false" onAction="#handleCalificarSemestreAction" text="Calificar Semestre" />
+      <Button layoutX="85.0" layoutY="115.0" mnemonicParsing="false" onAction="#handleVerHistorialAction" text="Ver Historial Académico" />
+      <Button layoutX="86.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleAvanceCurricularAction" text="Avance Curricular" />
+      <Button layoutX="85.0" layoutY="183.0" mnemonicParsing="false" onAction="#handleBuscadorCursosAction" text="Planificar Semestre" />
+      <Button layoutX="85.0" layoutY="216.0" mnemonicParsing="false" onAction="#handleCambiarMallaAction" text="Cambiar Malla" />
+      <Button layoutX="86.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleSituacionAcademicaAction" text="Ver Estado Académico" />
+      <Button layoutX="85.0" layoutY="285.0" mnemonicParsing="false" onAction="#handleInfoCursoAction" text="Obtener Información de Ramo" />
+      <Button layoutX="86.0" layoutY="320.0" mnemonicParsing="false" onAction="#handleVerNoticiaAction" text="Obtener Noticias" />
+      <Button layoutX="86.0" layoutY="354.0" mnemonicParsing="false" onAction="#handleBotarRamoAction" text="Botar Ramo" />
+   </children>
+</AnchorPane>
